@@ -18,6 +18,7 @@
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
 \usepackage{tabularx}
+\usepackage{soul}
 \input{glyphtounicode}
 
 %----------FONT OPTIONS----------
@@ -110,10 +111,10 @@
 
 \begin{center}
   \textbf{\Huge \scshape Tariq Soliman} \\ \vspace{1pt}
-  \small +614 23 696 614$|$ \href{mailto:x@x.com}{\underline{t.soliman@uq.net.au}}
+  \small +614 23 696 614$|$ \href{mailto:x@x.com}{\ul{t.soliman@uq.net.au}}
   $|$
-  \href{https://linkedin.com/in/tariq-soliman}{\underline{linkedin.com/in/tariq-soliman/}} $|$
-  \href{https://linktr.ee/tariqsoliman}{\underline{linktr.ee/tariqsoliman}}
+  \href{https://linkedin.com/in/tariq-soliman}{\ul{linkedin.com/in/tariq-soliman/}} $|$
+  \href{https://linktr.ee/tariqsoliman}{\ul{linktr.ee/tariqsoliman}}
 \end{center}
 
 %-----------EDUCATION-----------
@@ -143,7 +144,16 @@
 %    \resumeSubHeadingListEnd
 %-------------------------------------------
 \resumeSubheading
-{Tutor}{Mar. 2019 -- Present}
+{Research Assistant}{Dec. 2024 - Present}
+{The University of Queensland}{St Lucia, QLD}
+\resumeItemListStart
+\resumeItem{Investigating dimension importance estimation/query performance prediction with
+  deep learning embeddings generated for information retrieval}
+\resumeItem{\sloppy Building on work from \href{https://doi.org/10.48550/arXiv.2205.13147}{\ul{Matryoshka Respresentation Learning}} and \href{https://doi.org/10.1145/3626772.3657691}{\ul{Dimension Importance Estimation for Dense Information Retrieval}}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Tutor}{Mar. 2019 -- Nov. 2024}
 {The University of Queensland, ITAR, Cluey Learning \& Privately}{St Lucia, QLD}
 \resumeItemListStart
 \resumeItem{UQ Courses: Programming for Engineers, Introduction to Computer Systems, Robotics and Automation}
@@ -204,7 +214,7 @@
 \resumeProjectHeading
 {\textbf{Pose Detection with Pretrained ViTs} $|$ \emph{Python, PyTorch}}{Feb. 2023 -- June 2023}
 \resumeItemListStart
-\resumeItem{Performed transfer learning on ViTs pretrained using DINO, MAE and MSN methods inspired by the paper \href{https://doi.org/10.48550/arXiv.2204.12484}{\underline{\textit{ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation}}}}
+\resumeItem{Performed transfer learning on ViTs pretrained using DINO, MAE and MSN methods inspired by the paper \href{https://doi.org/10.48550/arXiv.2204.12484}{\ul{\textit{ViTPose: Simple Vision Transformer Baselines for Human Pose Estimation}}}}
 \resumeItem{Training with the COCO Keypoints dataset led to 0.847 $AP_{.5}$ and
   0.569 $AP_{.5:.95}$}
 \resumeItem{Presented a live inference demonstration using the top-down approach with YOLO
@@ -220,6 +230,9 @@
 \resumeProjectHeading
 {\textbf{Robotics Projects} $|$ \emph{Python, ROS2, C, C++, Keras, Embedded Programming}}{Feb. 2019 -- Present}
 \resumeItemListStart
+\resumeItem{Designed and manufactured a robot that could autonomously collect coffee beans
+  buried in sand. I was responsible for localisation using a camera and ArUco
+  markers and control algorithms}
 \resumeItem{Designed and manufactured a robot that can find the centre of a test area and
   shoot infra-red targets with a laser pointer}
 \resumeItem{Implemented an IoT robot that could turn to face people by recognising their
@@ -235,8 +248,8 @@
 \resumeItem{Implemented parts of an ARM processor at RTL level with verification on an FPGA}
 \resumeItem{Created a multisignature wallet on the blockchain with Solidity with a web app
   interface}
-\resumeItem{Created a \href{https://tariqs.com.au/}{\underline{personal blog}} to share things I am learning about.}
-\resumeItem{Completed \href{https://adventofcode.com/}{\underline{Advent of Code}} 2023 \href{https://github.com/TSoli/advent-of-code}{\underline{with all 50 stars in C++}}}
+\resumeItem{Created a \href{https://tariqs.com.au/}{\ul{personal blog}} to share things I am learning about.}
+\resumeItem{Completed \href{https://adventofcode.com/}{\ul{Advent of Code}} 2023 and 2024 \href{https://github.com/TSoli/advent-of-code}{\ul{with all 50 stars in C++}}}
 \resumeItemListEnd
 \resumeSubHeadingListEnd
 
@@ -246,9 +259,9 @@
 \begin{itemize}[leftmargin=0.15in, label={}]
   \small{\item{
                 \textbf{Languages}{: Python, C, C++ (modern), JavaScript, TypeScript, Java, Bash, Promela, Matlab, Swift, Lua, Verilog, Assembly (AVR \& ARM), Solidity} \\
-                \textbf{Frameworks}{: React, Expo (React Native), Node.js, PyTorch, Tensorflow (with keras), ROS, PyQt, Simulink, FreeRTOS, Firebase} \\
+                \textbf{Frameworks}{: React, Expo (React Native), Node.js, PyTorch, Tensorflow (with keras), ROS2, PyQt, Simulink, FreeRTOS, Firebase} \\
                 \textbf{Developer Tools}{: Git, Linux, (Neo)Vim, i3wm, VS Code, Vivado, Jupyter Notebook, Jira, Latex} \\
-                \textbf{Libraries}{: Pandas, NumPy, Matplotlib, SciPy, scikit-learn, scikit-image, OpenCV (Python), huggingface, ultralytics} \\
+                \textbf{Libraries}{: Pandas, NumPy, Matplotlib, SciPy, scikit-learn, scikit-image, OpenCV, huggingface, ultralytics} \\
                 \textbf{Misc. Skills}{: Altium (PCB design), Solidworks (CAD), ANSYS (FEA), Circuit Analysis, Signal Processing, PID Control, State Space Modelling, Non-linear Control with Lyapunov Functions}, Analysis of MDOF Systems, Modal Analysis, Systems Theoretic Process Analysis (STPA)
           }}
 \end{itemize}
